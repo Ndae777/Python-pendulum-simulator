@@ -290,3 +290,6 @@ start_button = ttk.Button(frame, text="Start Simulation", command=start_simulati
 start_button.pack(pady=10)
 
 window.mainloop()
+
+if __name__ == "__main__":
+    window.mainloop()
